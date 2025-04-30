@@ -3982,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 172.72) (xy 157.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025d3bf8-9378-4b3c-9b7b-3370b91dcb91")
+	)
+	(wire
+		(pts
 			(xy 124.46 149.86) (xy 127 149.86)
 		)
 		(stroke
@@ -3992,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 168.91) (xy 157.48 168.91)
+			(xy 158.75 168.91) (xy 157.48 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5182,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 172.72) (xy 157.48 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93fd26d-6b27-4f77-a4d2-9986fe24ae5c")
-	)
-	(wire
-		(pts
 			(xy 248.92 120.65) (xy 248.92 124.46)
 		)
 		(stroke
@@ -5359,6 +5359,16 @@
 			(type default)
 		)
 		(uuid "e0c981b5-c5cd-492b-a79b-446ca2c94489")
+	)
+	(wire
+		(pts
+			(xy 176.53 172.72) (xy 157.48 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e507a32d-c14b-4559-9109-124cb441c13e")
 	)
 	(wire
 		(pts
@@ -5790,16 +5800,6 @@
 		)
 		(uuid "cc684946-654a-46e8-939a-ae6c7dcaf691")
 	)
-	(label "SRT_STP_MODULE"
-		(at 175.26 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e57ed8ed-eda1-43b1-90c1-2c2f55f4a0e9")
-	)
 	(label "A3"
 		(at 204.47 106.68 180)
 		(effects
@@ -5819,6 +5819,16 @@
 			(justify left bottom)
 		)
 		(uuid "eedb143d-b919-4dcb-a1dc-c739f53f5243")
+	)
+	(label "SRT_STP_MODULE"
+		(at 176.53 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2708a8a-252d-4a0d-aad0-3568f5cc97db")
 	)
 	(label "D5"
 		(at 123.19 104.14 0)
@@ -8690,7 +8700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 172.72 0)
+		(at 158.75 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8698,7 +8708,7 @@
 		(dnp no)
 		(uuid "964baa68-ff3d-4d81-916a-8c94eedda29c")
 		(property "Reference" "#PWR022"
-			(at 157.48 179.07 0)
+			(at 158.75 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.448 172.974 0)
+			(at 156.718 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 172.72 0)
+			(at 158.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 172.72 0)
+			(at 158.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 172.72 0)
+			(at 158.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
